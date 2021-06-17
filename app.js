@@ -94,12 +94,14 @@ function setRandomColor() {
 
 // Hack the game function
 
-// function winTheGame() {
-//   function kill() {
-//     const circle = document.querySelector('.circle');
+function winTheGame() {
+  function kill() {
+    const circle = document.querySelector('.circle');
 
-//     circle.click();
-//   }
+    if (circle) {
+      circle.click();
+    }
+  }
 
-//   setInterval(kill, 75)
-// }
+  setInterval(kill, 42);
+}
