@@ -91,3 +91,15 @@ function setRandomColor() {
   const index = Math.floor(Math.random() * colors.length);
   return colors[index];
 }
+
+// Hack the game function
+
+// function winTheGame() {
+//   function kill() {
+//     const circle = document.querySelector('.circle');
+
+//     circle.click();
+//   }
+
+//   setInterval(kill, 75)
+// }
